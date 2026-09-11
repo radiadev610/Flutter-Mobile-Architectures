@@ -1,48 +1,28 @@
-# Flutter Core Architectures & Mobile Engineering Showcase
+# Flutter Core Engineering Labs
 
-A curated collection of modular Flutter implementations focusing on progressive computation algorithms, asynchronous lifecycle management, reactive UI state machines, and declarative mobile layouts.
-
-This repository serves as a practical implementation lab demonstrating scalable mobile patterns, declarative UI rendering, and efficient event loop utilization in Dart.
+A modular repository of practical cross-platform mobile applications built with Flutter and Dart, focusing on state management, responsive UI design, and asynchronous data flows.
 
 ---
 
-## 🛠 Tech Stack & Tooling
+## 🛠 Tech Stack
 
-* **Framework:** Flutter (Material 3)
+* **Framework:** Flutter (Material Design 3)
 * **Language:** Dart
-* **Key Patterns:** Declarative UI, Async Pipelines (`Future`/`Stream`), Progressive Tier Algorithms, Memory-Safe Controller Management
-* **Target Platforms:** Android, iOS, Web
+* **Platforms:** Android, iOS, Web
 
 ---
 
-## 📂 Modules & Implementations
+## 📁 Modules
 
-### 1. Progressive Consumption & Slab Computation Engine (`/01-multi-slab-utility-calculator`)
-* **Focus:** Non-linear tier-based pricing logic and input sanitization.
-* **Key Concepts:** Progressive range mapping, input controller lifecycle management, responsive card layouts, and keyboard event dispatching.
-* **Highlights:** Handles progressive unit cost evaluation across incremental threshold tiers without state mutations.
-
-### 2. Asynchronous State Lifecycle & Data Pipeline (`/02-asynchronous-data-pipeline`)
-* **Focus:** Handling asynchronous network lifecycles and tri-state UI rendering.
-* **Key Concepts:** Dart Event Loop, Non-blocking I/O (`async`/`await`), State transitions (`Idle` ➔ `Loading` ➔ `Success`/`Error`).
-* **Highlights:** Renders dynamic visual feedback based on pending microtask completions without locking the main rendering thread.
-
-### 3. Expression Evaluation & Symmetric Layout Engine (`/03-arithmetic-expression-engine`)
-* **Focus:** Real-time state tracking and responsive layout constraints.
-* **Key Concepts:** Aspect-ratio-enforced grid symmetry, conditional string tokenization, dynamic operator precedence parsing.
-* **Highlights:** Dual-buffer display architecture maintaining distinct equation history and active evaluation buffers.
-
-### 4. Reactive Ledger & Expense Stream (`/04-reactive-ledger-mvvm`)
-* **Focus:** Dynamic list rendering, in-memory collection management, and transaction records.
-* **Key Concepts:** Memory-optimized `ListView.builder`, object modeling, transactional state management.
-* **Highlights:** Scalable data layer handling real-time additions and dynamic list rendering.
+* **`01-utility-calculator`**: Tier-based computation application featuring dynamic input validation and custom layout components.
+* **`02-async-data-handler`**: Implements asynchronous task simulation (`async`/`await`), dynamic loading states, and conditional UI rendering.
+* **`03-expression-calculator`**: Full-featured arithmetic calculator with responsive custom keypads, dual-line displays, and state updates.
+* **`04-expense-tracker`**: Dynamic transaction logging interface utilizing list generation, custom form controllers, and memory-safe widget lifecycles.
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Running Any Module
 
-To run any of the modules locally:
-
-1. **Clone the repository:**
+1. Clone the repository:
    ```bash
    git clone [https://github.com/](https://github.com/)<your-username>/flutter-mobile-architectures.git
